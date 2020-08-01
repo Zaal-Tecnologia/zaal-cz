@@ -1,8 +1,9 @@
 {
   "name": "zaal-cz",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Commitizen adapter personalizado utilizado pela equipe de desenvolvimento da Zaal em seus projetos.",
   "main": "src/index.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
