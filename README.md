@@ -1,26 +1,86 @@
-# cz-ptbr-changelog
-[![travis build status](https://img.shields.io/travis/tibuurcio/cz-ptbr-changelog.svg)](https://travis-ci.org/tibuurcio/cz-ptbr-changelog)
-[![npm version](https://img.shields.io/npm/v/cz-ptbr-changelog.svg)](https://www.npmjs.com/package/cz-ptbr-changelog)
-![MIT license](https://img.shields.io/npm/l/cz-ptbr-changelog.svg)
+<h1 align="center">
+  <img alt="Fastfeet" title="Fastfeet" src="https://raw.githubusercontent.com/Zaal-Tecnologia/zaal-nfce-web/master/src/assets/logo_branca_horizontal.jpg?token=AGOFMQSCA7HGC23E67FQFDK7ETLC4" width="400px" />
+</h1>
 
-Commitizen adapter para projetos escritos em pt-BR que seguem o formato conventional-changelog. 
+<p align="center">
+  <img alt="Made by Henrique Tavares" src="https://img.shields.io/badge/made%20by-Zaal Tecnologia-%20?color=F1574D">
+</p>
 
-Commitizen é uma interface de linha de comando para auxiliar a criar mensagens para seus commits seguindo um padrão predefinido. Este projeto é um padrão traduzido para pt-BR do [padrão seguido pelo AngularJS].
+<p align="center">
+  <a href="#gear-setting">⚙ Setting</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">ℹ️ How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#handshake-contribution">🤝 Contribution</a>
+</p>
 
-Para utilizar esse padrão em seu projeto, tenha certeza de ter o commitizen instalado globalmente:
+<p align="center">
+  Customized commitizen adapter in pt-BR used by Zaal's development team in their projects.
+</p>
 
-`npm install commitizen -g`
+---
 
-Em seguida, navegue até a pasta do seu projeto e inicialize o commitizen com este projeto como convenção de mensagens:
+# :gear: Setting
 
-`commitizen init cz-ptbr-changelog --save-dev --save-exact`
+### 01 - It is necessary to have Commitizen installed in your project, so let's install
 
-Quando for commitar alterações, basta utilizar o comando `git cz`.
+```bash
+yarn add @commitlint/cli -D
 
-![git cz output](http://i.imgur.com/nSslMYx.png)
+# or
 
-Para mais informações, ver [commitizen](https://github.com/commitizen/cz-cli).
+npm install --save-dev @commitlint/cli
 
-## License
+```
 
-MIT © Gabriel Tibúrcio
+### 02 - Now, install the zaal-cz
+
+```bash
+yarn add zaal-cz -D
+
+# or
+
+npm install --save-dev zaal-cz
+```
+
+### 03 - To finishing, creating an file with name: `commitlint.config.js` and paste this code there
+
+```javascript
+module.exports = {
+  extends: ['zaal-cz']
+}
+```
+
+# :information_source: How To Use
+
+### 01 - Access your `package.json` and create a `config`
+
+```json
+"config": {
+  "commitizen": {
+    "path": "./node_modules/zaal-cz"
+  }
+}
+```
+
+### 02 - Install Husky
+
+```bash
+yarn add husky -D
+
+# or
+
+npm install --save-dev husky
+```
+
+### 03 - Create the pre-commit hook using the husky
+
+```json
+"husky": {
+  "hooks": {
+    "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+  }
+},
+```
+
+# :handshake: Contribution
+
+Everyone is welcome to contribute, just create an issue and make your PR that will be a pleasure to receive your help. Thank you! ❤
