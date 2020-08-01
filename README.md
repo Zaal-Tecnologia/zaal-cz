@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Zaal" title="Zaal" src="src/assets/zaal_logo.jpg" width="400px" />
+  <img alt="Zaal" title="Zaal" src="https://raw.githubusercontent.com/Zaal-Tecnologia/zaal-cz/master/src/assets/zaal_logo.jpg" width="400px" />
 </h1>
 
 <p align="center">
