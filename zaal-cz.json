@@ -10,10 +10,10 @@
       "description": "🐛 Correção de bugs e erros"
     },
     "style": {
-      "description": "💅🏻 Mudanças e implementações feitas em arquivos de estilização"
+      "description": "🎨 Mudanças e implementações feitas em arquivos de estilização"
     },
     "refactor": {
-      "description": "♻️ Mudanças no código que nem corrigem um bug e nem adicionam novas funcionalidades, apenas refatoram um código existente"
+      "description": "🔄 Mudanças no código que nem corrigem um bug e nem adicionam novas funcionalidades"
     },
     "docs": {
       "description": "📖 Mudanças apenas na documentação"
@@ -25,7 +25,7 @@
       "description": "✅ Adiciona novos testes ou corrige testes existentes"
     },
     "build": {
-      "description": "👷🏻 Mudanças que envolve praticamente quase tudo de fora da pasta 'src'"
+      "description": "🔧 Mudanças que envolve praticamente quase tudo de fora da pasta 'src'"
     },
     "ci": {
       "description": "🚨 Mudanças nos arquivos de configuração e scripts de CI"
