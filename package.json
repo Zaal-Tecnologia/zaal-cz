@@ -1,0 +1,38 @@
+{
+  "name": "zaal-cz",
+  "version": "1.0.0",
+  "description": "Commitizen adapter personalizado utilizado pela equipe de desenvolvimento da Zaal em seus projetos.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo 'Tests need to be setup!'",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "homepage": "https://github.com/Zaal-Tecnologia/zaal-cz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zaal-Tecnologia/zaal-cz.git"
+  },
+  "author": {
+    "name": "Zaal Tecnologia",
+    "email": "desenvolvimento@zaal.com.br",
+    "url": "https://www.zaal.com.br/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.map": "^4.6.0",
+    "longest": "2.0.1",
+    "pad-right": "^0.2.2",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "commitizen": "4.1.2",
+    "semantic-release": "17.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  }
+}
