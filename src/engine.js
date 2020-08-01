@@ -1,9 +1,9 @@
 'format cjs';
 
-import wrap from 'word-wrap';
-import map from 'lodash.map';
-import longest from 'longest';
-import rightPad from 'right-pad';
+const wrap = require('word-wrap');
+const map = require('lodash.map');
+const longest = require('longest');
+const rightPad = require('right-pad');
 
 var filter = array => {
   return array.filter(function (x) {
