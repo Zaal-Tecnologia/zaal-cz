@@ -2,7 +2,7 @@
   "name": "zaal-cz",
   "version": "1.0.0",
   "description": "Commitizen adapter personalizado utilizado pela equipe de desenvolvimento da Zaal em seus projetos.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
@@ -28,11 +28,20 @@
   },
   "devDependencies": {
     "commitizen": "4.1.2",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.0.5",
     "semantic-release": "17.1.1"
   },
   "config": {
     "commitizen": {
-      "path": "./index.js"
+      "path": "./src/index.js"
     }
   }
 }

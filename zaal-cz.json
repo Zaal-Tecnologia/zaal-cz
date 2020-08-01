@@ -1,0 +1,37 @@
+{
+  "types": {
+    "feat": {
+      "description": "✨ Nova funcionalidade"
+    },
+    "chore": {
+      "description": "💡 Mudanças como acrescentar alguma coisa em alguma 'feat' já existente ou que não se enquadra em nenhum dos outros tipos"
+    },
+    "fix": {
+      "description": "🐛 Correção de bugs e erros"
+    },
+    "style": {
+      "description": "💅🏻 Mudanças e implementações feitas em arquivos de estilização"
+    },
+    "refactor": {
+      "description": "♻️ Mudanças no código que nem corrigem um bug e nem adicionam novas funcionalidades, apenas refatoram um código existente"
+    },
+    "docs": {
+      "description": "📖 Mudanças apenas na documentação"
+    },
+    "story": {
+      "description": "📚 Adiciona ou corrige novas stories"
+    },
+    "test": {
+      "description": "✅ Adiciona novos testes ou corrige testes existentes"
+    },
+    "build": {
+      "description": "👷🏻 Mudanças que envolve praticamente quase tudo de fora da pasta 'src'"
+    },
+    "ci": {
+      "description": "🚨 Mudanças nos arquivos de configuração e scripts de CI"
+    },
+    "start": {
+      "description": "🎉 Inicio de um novo projeto(Initial commit)"
+    }
+  }
+}
