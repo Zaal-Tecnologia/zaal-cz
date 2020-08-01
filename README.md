@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src="https://raw.githubusercontent.com/Zaal-Tecnologia/zaal-nfce-web/master/src/assets/logo_branca_horizontal.jpg?token=AGOFMQSCA7HGC23E67FQFDK7ETLC4" width="400px" />
+  <img alt="Fastfeet" title="Fastfeet" src="src/assets/zaal_logo.jpg" width="400px" />
 </h1>
 
 <p align="center">
