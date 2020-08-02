@@ -91,6 +91,8 @@ npx commitizen init zaal-cz --save-dev --save-exact
 
 _Now you just type `git commit`, you will see this:_
 
+![preview](./src/assets/preview.png)
+
 # :handshake: Contribution
 
 - Fork this repository;

@@ -1,6 +1,6 @@
 {
   "name": "zaal-cz",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Commitizen adapter personalizado utilizado pela equipe de desenvolvimento da Zaal em seus projetos.",
   "main": "src/index.js",
   "scripts": {
