@@ -4,7 +4,7 @@
       "description": "✨ Nova funcionalidade"
     },
     "chore": {
-      "description": "💡 Mudanças como acrescentar alguma coisa em alguma 'feat' já existente ou que não se enquadra em nenhum dos outros tipos"
+      "description": "💡 Acrescentando em uma feat, style etc."
     },
     "fix": {
       "description": "🐛 Correção de bugs e erros"
