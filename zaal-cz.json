@@ -30,6 +30,9 @@
     "ci": {
       "description": "🚨 Mudanças nos arquivos de configuração e scripts de CI"
     },
+    "dependencies": {
+      "description": "🚀 Atualizando dependencias do projeto"
+    },
     "start": {
       "description": "🎉 Inicio de um novo projeto(Initial commit)"
     }
